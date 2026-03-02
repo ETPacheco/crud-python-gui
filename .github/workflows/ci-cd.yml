@@ -21,7 +21,7 @@ jobs:
 
       - run: pyinstaller --onefile app.py
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: python-crud-executable
           path: dist/app
